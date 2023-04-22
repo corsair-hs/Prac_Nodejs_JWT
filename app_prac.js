@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 
 // playloadData 변수에 값이 있는 객체 하나 할당
 const payloadData = {
-    myPayloadData: 1234
+  myPayloadData: 1234
 };
 
 // payloadData변수 안에 있는 데이터로 JWT 토큰 생성
