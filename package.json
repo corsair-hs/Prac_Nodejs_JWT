@@ -1,0 +1,15 @@
+{
+  "name": "prac_nodejs_jwt",
+  "version": "1.0.0",
+  "description": "- JSON 형태의 데이터를 안전하게 교환하여 사용할 수 있게 해주는 것\r - 인터넷 표준으로서 자리잡은 규격\r - 여러가지 암호화 알고리즘을 사용할 수 있음\r - header.payload.signature 의 형식으로 3가지의 데이터를 포함 (개머처럼 머리, 가슴 , 배)\r   - 그렇기 때문에 JWT 형식으로 변환 된 데이터는 항상 2개의 . 이 포함된 데이터여야 함",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0"
+  }
+}
